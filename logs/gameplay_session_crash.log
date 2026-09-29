@@ -1,0 +1,13 @@
+[2026-09-16 14:20:01.102] [INFO] [Engine]: Initializing Game Engine v2.4.1...
+[2026-09-16 14:20:02.450] [INFO] [Network]: Connected to Server US-East-1 (Latency: 42ms)
+[2026-09-16 14:20:15.890] [INFO] [Matchmaking]: Player "Hero_01" spawned at position (X: 120, Y: 45, Z: 0)
+[2026-09-16 14:20:16.002] [INFO] [Matchmaking]: Player "Boss_Enemy" spawned at position (X: 125, Y: 45, Z: 0)
+[2026-09-16 14:20:22.310] [INFO] [Combat]: Player "Hero_01" executed action "BasicAttack" on "Boss_Enemy" (Damage: 25)
+[2026-09-16 14:20:25.115] [WARNING] [Network]: High Packet Loss detected (18% drop rate)
+[2026-09-16 14:20:26.040] [WARNING] [Network]: Desync detected between Client and Server position for "Boss_Enemy"
+[2026-09-16 14:20:27.500] [INFO] [Combat]: Player "Hero_01" executed action "Ultimate_Skill"
+[2026-09-16 14:20:27.512] [ERROR] [CombatEngine]: NullReferenceException: Object reference not set to an instance of an object
+[2026-09-16 14:20:27.513] [ERROR] [CombatEngine]:    at GameEngine.Services.CombatSystem.ApplyAreaDamage(TargetGroup targets) in CombatSystem.cs:line 84
+[2026-09-16 14:20:27.515] [ERROR] [CombatEngine]: Failed to resolve target list due to network desync state.
+[2026-09-16 14:20:27.530] [CRITICAL] [Engine]: Fatal Exception Encountered. Initiating Emergency Shutdown.
+[2026-09-16 14:20:27.600] [INFO] [Engine]: Process terminated with Exit Code 0xC0000005 (Access Violation)
